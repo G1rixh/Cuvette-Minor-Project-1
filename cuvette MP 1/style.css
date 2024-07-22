@@ -1,0 +1,93 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: peachpuff;
+}
+
+h1,
+p,
+h3,
+form,
+input,
+button,
+.belowbutton {
+  flex: 1;
+}
+
+h1 {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+p {
+  padding-left: 50px;
+}
+
+h3 {
+  padding-left: 50px;
+}
+
+form {
+  padding-left: 50px;
+
+}
+
+input {
+  padding: 10px;
+  border: 2px solid black;
+
+}
+
+button {
+  padding: 10px;
+  background-color: black;
+  color: whitesmoke;
+  size: 30px;
+}
+
+.belowbutton {
+  padding-left: 20px;
+  color: whitesmoke;
+}
+
+
+
+.position-top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.container {
+  width: 50px;
+  height: 50px;
+  top: 20px;
+  left: 818px;
+  padding: 66.4px 110px 45px 75px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+
+footer {
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #282828;
+  color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.bottomrighttext {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  text-align: right;
+  padding-right: 50px;
+  padding-top: 100px;
+}
